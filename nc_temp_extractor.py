@@ -11,17 +11,17 @@ import os
 # 6–8  -> Deep     (max, mean, min)
 
 temp_list = [
-    r"C:\Users\lynic\OneDrive\Desktop\extracao_temp_env\dataset\nc_files\Shallow\max_temp_shallow.nc",
-    r"C:\Users\lynic\OneDrive\Desktop\extracao_temp_env\dataset\nc_files\Shallow\mean_temp_shallow.nc",
-    r"C:\Users\lynic\OneDrive\Desktop\extracao_temp_env\dataset\nc_files\Shallow\min_temp_shallow.nc",
+    r"\dataset\nc_files\Shallow\max_temp_shallow.nc",
+    r"\nc_files\Shallow\mean_temp_shallow.nc",
+    r"\nc_files\Shallow\min_temp_shallow.nc",
 
-    r"C:\Users\lynic\OneDrive\Desktop\extracao_temp_env\dataset\nc_files\Average\max_temp_average.nc",
-    r"C:\Users\lynic\OneDrive\Desktop\extracao_temp_env\dataset\nc_files\Average\mean_temp_average.nc",
-    r"C:\Users\lynic\OneDrive\Desktop\extracao_temp_env\dataset\nc_files\Average\min_temp_average.nc",
+    r"\nc_files\Average\max_temp_average.nc",
+    r"\nc_files\Average\mean_temp_average.nc",
+    r"\nc_files\Average\min_temp_average.nc",
 
-    r"C:\Users\lynic\OneDrive\Desktop\extracao_temp_env\dataset\nc_files\Deep\max_temp_deep.nc",
-    r"C:\Users\lynic\OneDrive\Desktop\extracao_temp_env\dataset\nc_files\Deep\mean_temp_deep.nc",
-    r"C:\Users\lynic\OneDrive\Desktop\extracao_temp_env\dataset\nc_files\Deep\min_temp_deep.nc",
+    r"\nc_files\Deep\max_temp_deep.nc",
+    r"\nc_files\Deep\mean_temp_deep.nc",
+    r"\nc_files\Deep\min_temp_deep.nc",
 ]
 
 def extrator_temp_por_label(
